@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/ProfileImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/etFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="First Name"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+     <EditText
+        android:id="@+id/etLastname"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Last Name"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="UserName"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Password"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etConPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorPrimary"
+        android:hint="Confirm Password"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SignUp"
+            android:textSize="20dp"/>
+</LinearLayout>
